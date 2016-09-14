@@ -1,11 +1,20 @@
+import java.awt.image.BufferedImage;
+
 
 public class Flag
 {
 	private String country;
+	private BufferedImage image;
 	
-	public Flag()
+	public Flag(String country, BufferedImage image)
 	{
-		country = "test";
+		this.country = country;
+		this.image = image;
+	}
+	
+	public BufferedImage getImage()
+	{
+		return image;
 	}
 	
 	public String toString()
