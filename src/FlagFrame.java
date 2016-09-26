@@ -29,7 +29,7 @@ public class FlagFrame extends JFrame
 		setResizable(false);
 		setTitle("CSC 420: Homework 1");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 437, 262);
+		setBounds(100, 100, 512, 160);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);

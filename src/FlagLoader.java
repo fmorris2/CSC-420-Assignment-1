@@ -40,7 +40,7 @@ public class FlagLoader extends SwingWorker<List<Flag>, Void>
 			try
 			{
 				flags.add(new Flag(NAME.replaceAll("\\..*", ""), ImageIO.read(f)));
-				System.out.println("Successfully loaded flag for " + NAME);
+				System.out.println("Successfully loaded flag from " + NAME);
 			}
 			catch(IOException e)
 			{
